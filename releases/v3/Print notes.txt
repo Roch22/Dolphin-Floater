@@ -55,4 +55,5 @@ HOW IT WORKS
 
 SIGNATURE: small round THE / ROCK badge engraved under the cap.
 NOTE: the 3MF plate layout has not been tested in FlashStudio. If it opens oddly,
-      use the STL folders instead (same parts).
+      use the STL folder next to this file instead (same parts, one STL each,
+      already in print orientation).
