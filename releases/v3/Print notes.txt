@@ -1,0 +1,58 @@
+DOLPHIN TABLET FLOATER - v3   (all parts PETG)
+================================================
+
+PARTS (main 3MF, one plate each)
+  Plate 1  Dolphin        dolphin_float      204 x 114 x 83 mm, belly on the bed
+  Plate 2  Tube           tube               stands up, dolphin-thread end on the bed
+  Plate 3  Sleeve + Cap   sleeve, cap_washer_pause
+
+WHAT CHANGED IN v3
+  Only the dolphin: straight, smooth swept-back dorsal fin. (v2 already had: one smooth body (no lumps) and a plain smooth base, no wave ripples.)
+  Tube, sleeve and cap are the same as v1, so parts you already printed still fit.
+
+TEST PACK (from v1)
+  socket_test     - screw tube_test into it: checks the dolphin socket thread + collar seat
+  tube_test       - short tube: one slot row, both threads, the collar with tick marks
+  sleeve_test     - short sleeve: must turn freely on tube_test but not wobble
+  cap_0.25 / cap_0.35 - two thread clearances. Keep the one that screws on smoothly.
+                    cap_0.25 is the real cap, so if it fits you can use it on the floater.
+  leak_test_puck  - print with the dolphin settings, leave it in the hot tub overnight.
+                    If it still floats high and gives no bubbles when squeezed under water,
+                    the dolphin settings are watertight.
+
+SLICER SETTINGS (FlashStudio field names)
+  Dolphin:  Wall loops 3, Top shell layers 5, Bottom shell layers 5,
+            Sparse infill density 10%, Sparse infill pattern Gyroid
+            Enable support ON, Type Tree (auto), On build plate only ON
+            (needed under the beak, chin, flippers and tail flukes)
+  Tube:     Wall loops 4, Sparse infill density 15%, no supports
+  Sleeve:   Wall loops 3, no supports
+  Cap:      Wall loops 4, Top shell layers 5, Bottom shell layers 5,
+            Sparse infill density 25%, no supports
+
+PAUSE FOR THE WASHERS (cap)
+  The washer pocket is from 2.0 mm to 10.0 mm high (8 mm tall).
+  In Preview, drag the layer slider to the FIRST layer above 10.0 mm,
+  right-click the slider, and choose "Add pause".
+  When it pauses, drop in 1/2" fender washers (38 mm outside), STAINLESS so they
+  never rust: about 4 washers at 2 mm thick, or 5 at 1.6 mm. The top of the stack
+  must be at or just under the top of the pocket. Then resume.
+
+HOW IT WORKS
+  - The tube screws into the dolphin belly until the collar seats.
+  - The sleeve slides over the tube from the bottom, then the cap screws on
+    and clamps the sleeve.
+  - Adjust: loosen the cap a quarter turn, turn the sleeve, retighten the cap.
+      pointer on the LONG tick   = fully open
+      pointer on a MEDIUM tick   = closed
+      SHORT ticks                = in between (about 2/3 and 1/4 open)
+  - Load tablets: unscrew the cap, hold the dolphin upside down, drop in up to
+    8 tablets (25.2 x 16 mm), screw the cap back on.
+  - The blowhole on top of the head is the air vent, so the tube fills with
+    water and every tablet gets wet.
+  - Calculated float level: with 8 tablets and 4 washers, the water line sits
+    about 3.5 to 4 cm up the dolphin (about 3 cm without washers). Its back, fin, head and tail stay dry.
+
+SIGNATURE: small round THE / ROCK badge engraved under the cap.
+NOTE: the 3MF plate layout has not been tested in FlashStudio. If it opens oddly,
+      use the STL folders instead (same parts).
