@@ -23,7 +23,8 @@ Slicer settings and the pause height are in `releases/v3/Print notes.txt`.
 All STLs are already in print orientation (flat face down), so just drop them on the bed.
 
 ## Folders
-- `releases/v3/`: latest full floater (one 3MF, 3 plates: dolphin, tube, sleeve + cap), `STL/` with one file per part, and print notes
+- `releases/v4/`: latest full floater with the stronger tube, plus a short tube test
+- `releases/v3/`: previous full floater (one 3MF, 3 plates: dolphin, tube, sleeve + cap), `STL/` with one file per part, and print notes
 - `releases/v1 test pack/`: test parts (thread caps, sleeve and tube test, socket test, leak puck), as a 3MF and in `STL/`
 - `source/`: Python scripts that build every part (`run_main.py` for the parts, `run_tests.py` for the test pack, `export_stl.py` writes the `STL/` folders from the 3MFs)
 
@@ -31,8 +32,11 @@ All STLs are already in print orientation (flat face down), so just drop them on
 - **v1**: first version, plus the test pack
 - **v2**: smooth dolphin body, plain base with no wave ripples
 - **v3**: straight, smooth dorsal fin
+- **v4**: stronger tube after the v3 tube broke while being screwed together: narrower tapered slots, wider ribs and solid bands, thicker wall. Same threads, so the cap, sleeve and dolphin still fit
 
 ## Test results
 - Cap with 0.25 mm thread clearance: fits both ends of the tube
 - Sleeve test: turns and locks
 - Leak test puck: pending
+- v3 tube: broke while screwing, so v4 was made stronger
+- PETG spaghetti problems on several prints: use the stock Generic PETG profile and a spool that prints well
